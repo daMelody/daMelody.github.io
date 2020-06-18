@@ -1,7 +1,7 @@
 const container = document.querySelector(".container")
 const posts = [
-    { date: "3/1/2020", title: "Post 1", content: "Lorem ipsum" },
-    { date: "4/1/2020", title: "Post 2", content: "Ipsum lorem" },
+    { date: "3/1/2020", title: "Post 1", content: "../content/blog1.txt" },
+    { date: "4/1/2020", title: "Post 2", content: "../content/blog2.txt" },
 ]
 
 const showPosts = () => {
@@ -11,11 +11,10 @@ const showPosts = () => {
         (output += `
     <div class="card">
         <h2 class="card--title">${title}</h1>
-        <div class="card--content">${content}</div>
+        <embed class="card--content" src="${content}">
     </div>
     `))
     container.innerHTML = output
-    console.log("posts shown")
 }
 
 /*
