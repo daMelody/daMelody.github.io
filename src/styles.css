@@ -1,13 +1,6 @@
 /* styles for full page */
 
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
-/** Color scheme below in rgb from lightest to darkest
-** #F2E6CE
-** #BFAD8A
-** #8C7C5D
-** #59492A
-** #261F12
-*/
 
 * {
     margin: 0;
@@ -18,12 +11,10 @@
 body {
     font-family: 'Quattrocentro', serif;
     font-size: 1rem;
-    background-color: #BFAD8A;
 }
 
 /* header styles */ 
 header { /* todo: background color */
-    background-color: #9c8e71;
     position: sticky;
     display: flex;
     flex-direction: row;
@@ -66,10 +57,10 @@ main {
 
 /* card styles */
 .card {
-    background-color: #8C7C5D;
+    background-color: grey;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 10rem auto;
     height: 6rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.25);
@@ -83,10 +74,13 @@ main {
     font-weight: bold;
     text-transform: capitalize;
     font-size: 1.1rem;
-    margin-top: 0.5rem
+    margin-left: 1rem;
+    margin-right: 5rem;
 }
 
-.card--content {
-    /* to be decided */
-    width: 95%;
+.card--date {
+    margin-right: 5rem;
+}
+
+.card--summary {
 }
