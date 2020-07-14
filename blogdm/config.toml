@@ -22,7 +22,8 @@ build_search_index = false
 # Put all your custom variables here
 
 taxonomies = [
-    {name = "tags"},
+    {categories = "tags", feed = true},
+    {name = "tags", feed = true},
 ]
 
 # All Hyde theme related things
