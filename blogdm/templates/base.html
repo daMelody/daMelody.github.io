@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>{%block title %}{{config.title}}{%endblock title %}</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ get_url(path='print.css', trailing_slash=false) }}" media="print">
+  <link rel="stylesheet" href="{{ get_url(path='poole.css', trailing_slash=false) }}">
+  <link rel="stylesheet" href="{{ get_url(path='hyde.css', trailing_slash=false) }}">
+</head>
+
+<body class="{{ config.extra.hyde_theme }}">
+  {% block sidebar %}
+  <div class="sidebar">
+    <div class="container {% if config.extra.hyde_sticky %}sidebar-sticky{% endif %}">
+      <div class="sidebar-about">
+        {% block sidebar_about %}
+        <a href="{{ config.base_url }}">
+          <h1>{{ config.title }}</h1>
+        </a>
+        {% if config.description %}
+        <p class="lead">{{config.description}}</p>
+        {% endif %}
+        {% endblock sidebar_about %}
+      </div>
+
+      <ul class="sidebar-nav">
+        {% block sidebar_nav %}
+        {% for link in config.extra.hyde_links %}
+        <li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
+        {% endfor %}
+        {% endblock sidebar_nav %}
+      </ul>
+
+      <p>Thanks to <a href="https://www.getzola.org/">Zola</a> and <a href="https://github.com/getzola/hyde">Hyde</a>
+        for providing the structure for this space.</p>
+    </div>
+  </div>
+  {% endblock sidebar %}
+
+  <div class="content container">
+    {% block content %} {% endblock %}
+  </div>
+
+</body>
+
+</html>
