@@ -2,7 +2,7 @@
 base_url = "https://daMelody.github.io"
 
 title = "daMelody"
-description = "Disclaimer: this is a brain-dump"
+description = ""
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -21,6 +21,7 @@ build_search_index = false
 [extra]
 # Put all your custom variables here
 
+# Post organization
 taxonomies = [
     {categories = "tags", feed = true},
     {name = "tags", feed = true},
