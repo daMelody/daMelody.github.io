@@ -1,19 +1,32 @@
 +++
-title = "Setting up a blog with Zola"
-date = 2020-07-14
+title = "Wyckoff Whoopsie"
+date = 2020-08-02
 [taxonomies]
-categories = ["coding"]
-tags = ["meta-blog"]
+categories = ["investing"]
+tags = ["swing-trading"]
 +++
 
-I had been thinking about starting a blog since over the past few months I've consumed so much content from other blogs. It's hard to say when one knows "enough" to be able to create content of any kind that others might feel is useful to them -- and the only way to know... is to start. That's what I'm doing here.
+Most of the theory powering this post -- and my revelation -- I found while reading Adam Grimes' book, [The Art and Science of Technical Analysis](https://adamhgrimes.com/the-art-and-science-the-book/). Go check this out for more details, and a boatload of other information.
 
-When I started to code, I wanted to use plain HTML/CSS/JS. It would've been fine, I think. But then I realized that I didn't want to have to style my posts in HTML by myself. I think that's a really easy way for me to lose focus on the actual content. A few weeks ago, I was reading a Rust blog (as one does), when I saw that it was "powered by Zola". The content was displayed well, so I thought I should take a look.
+## Who is Wyckoff?
 
-Turns out, Zola is static-site generator powered by Rust (yay!). Posts are written in a flavor of Markdown, which allows me to focus more easily on my writing. The engine should power post-organization schemes based on categories and tags that are placed at the top of each post. However, at the time of writing, I haven't quite figured it out.
+Back in the olden days of stock trading and investing, long before there were people like me who could throw money at markets and watch it rise and fall with little understanding of why it went up or down (particularly why then? couldn't it have waited another day? or you know, let me log on first before divebombing $13 a share??)... there were four horsemen: JP Morgan, Jesse Livermore, Charles Dow, and Bernard Bruch. There was also a guy riding a donkey just a few feet behind them. His name was Richard Wyckoff and we like him. This is his story.
 
-> Look for the following categories: coding, investing/trading, music, literature
+## What is Wyckoff?
 
-## Zola Review
+Richard Wyckoff was a smart dude, and an investor... so unlike many of us, he made so much money in the stock markets he got bored and cashed out. He then decided to share his wisdom with the rest of us plebs.
 
-Initializing my Zola blog was as simple as <code>zola init blog_name</code> and following the very informative documentation which showed me how to install a pre-built theme called Hyde (which I have very very minimally altered). One feature that I enjoy is the templating language, Tera, that Zola uses to construct the site structure. This is the feature that enables organization by categories and tags.
+> Wyckoff created a method for understanding the buying and selling convictions of *very* large traders and institutions through the patterns their activity left on prices.
+<br/>
+>-- Grimes, pp. 41
+> *emphasis* is mine
+
+He describes these patterns as part of a **Market Cycle** in which there are four parts (seasons, if you're feeling poetic today I am :).  They are:
+- Accumulation : big firms **slowly** buy up shares while price is low, taking care to buy in small enough amounts that the price action doesn't show this clearly
+- Markup : public becomes aware, interest and buying pressure grows as the individual STONK buyers try to get in on the fun
+- Distribution : we've reached the end of the road lads and we may not know it, but the big cahunas do
+- Markdown (not to be confused with the templating language I'm using to write this post) : 
+
+N.B. The length of these seasons are slow moving, and positively glacial to a daytrader's perspective.
+
+Consequently, today (July 31, 2020), I've experienced the disappointment of being unaware of these seasons and the market behaviors that accompany.
