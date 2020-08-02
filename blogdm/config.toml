@@ -1,0 +1,36 @@
+# The URL the site will be built for
+base_url = "https://daMelody.github.io"
+
+title = "tbd"
+description = "to be developed"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Theming
+theme = "hyde"
+highlight_theme = "dracula"
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
+
+# Post organization
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
+# All Hyde theme related things
+hyde_links = [
+    {url = "/blog/", name = "Blog"},
+    {url = "https://github.com/daMelody", name = "Github"},
+    {url = "https://twitter.com/dw_melody", name = "Twitter"},
+    {url = "https://linkedin.com/in/daniel-melody-4325a1ba/", name = "LinkedIn"},
+]
