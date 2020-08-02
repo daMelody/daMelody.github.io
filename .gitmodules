@@ -1,0 +1,3 @@
+[submodule "hyde"]
+    path = blogdm/themes/hyde
+    url = "https://github.com/getzola/hyde"
