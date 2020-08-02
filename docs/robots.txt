@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://daMelody.github.io/sitemap.xml
