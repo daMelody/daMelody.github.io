@@ -43,7 +43,7 @@ Analysis (Weekly View): *here we see a markdown phase from September 2018 into t
 ![Image](https://www.tradingview.com/x/2h5Hmb0f/)
 Analysis (Daily View): *the highlighted rectangle shows a region that XPO has only gone above once in the past 10 months or so -- and failed to break through on three separate occasions. The last of these being Thursday and Friday of last week (July 28-July 31, 2020).* 
 
-My entrance actually wasn't terrible: 4 days before the rightmost (YUGE) red bar on an upswing following the small downward correction -- $82.93 on 7/27/2020. When I had planned my trade, I was not looking back past March 2020 and I had planned to sell before earnings (didn't do that last part, YIKES!!!). If I had looked back, I swouldn't have gotten fooled by the small upward trend approaching the top of the highlighted rectangle on the Daily chart and thought that it had better odds of continuing than stopping.
+My entrance actually wasn't terrible: 4 days before the rightmost (YUGE) red bar on an upswing following the small downward correction -- $82.93 on 7/27/2020. When I had planned my trade, I was not looking back past March 2020 and I had planned to sell before earnings (didn't do that last part, YIKES!!!). If I had looked back, I wouldn't have gotten fooled by the small upward trend approaching the top of the highlighted rectangle on the Daily chart and thought that it had better odds of continuing than stopping.
 
 I then -- probably was stupid, but we shall see -- bought into the fall at $74.685 a share in a possibly desperate ploy to cost-average down.
 
