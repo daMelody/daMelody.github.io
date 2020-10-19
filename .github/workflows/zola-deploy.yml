@@ -13,7 +13,7 @@ jobs:
       - name: 'Build only' 
         uses: shalzz/zola-deploy-action@master
         env:
-          BUILD_DIR: .
+          BUILD_DIR: ./blogdm
           TOKEN: ${{ secrets.TOKEN }}
           BUILD_ONLY: true
   build_and_deploy:
