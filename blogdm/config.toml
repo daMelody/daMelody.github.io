@@ -5,7 +5,7 @@ title = "tbd"
 description = "to be developed"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Theming
 theme = "hyde"
