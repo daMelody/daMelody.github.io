@@ -2,15 +2,15 @@
 title = "This Post was Deployed on Github Workflows"
 date = 2020-10-19
 [taxonomies]
-categories = ["coding"]
-tags = ["dev-ops, ci/cd"]
+categories = ["dev-ops"]
+tags = ["ci-cd", "github-workflows"]
 +++
 
-Setting up automated integration and deployment flows can save incredible amounts of time throughout the development process. If you can manage to get the flow working with reasonable amounts of time and effort.
+Setting up automated integration and deployment flows can save incredible amounts of time throughout the development process -- **if** you can manage to get the flow working with reasonable amounts of time and effort.
 
-## My Needs
+## Action Plan
 
-I want to be able to automatically deploy the latest code that is in the `master` branch to my *github-pages* website whenever a `pull request` is merged into that branch.
+I want to be able to automatically build and deploy the latest code that is in the `master` branch to my *github-pages* website whenever a `pull request` is merged into that branch.
 
 ## Starting Point
 
